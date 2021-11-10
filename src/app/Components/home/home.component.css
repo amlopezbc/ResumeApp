@@ -1,0 +1,10 @@
+section {
+  padding-top: 60px;
+  align-items: center;
+  background-image: url(../../../assets/images/Logo.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 570px;
+  height: 500px;
+  background-color: rgb(243, 243, 243);
+}

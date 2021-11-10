@@ -1,0 +1,27 @@
+<div>
+  <div class="container">
+    <!-- *ngFor -->
+    <div id="personalInfoLabel">
+      <p>Nationality:</p>
+      <p>DOB:</p>
+      <p>Address:</p>
+    </div>
+    <div id="personalInfoField">
+      <p>Uruguayan</p>
+      <p>10 / 12 / 1982</p>
+      <p>Tacuarembó 1499</p>
+    </div>
+  </div>
+
+  <!-- button component -->
+  <button>Download my full cv
+    <fa-icon [icon]="faDownload"></fa-icon>
+  </button>
+
+  <!-- *ngFor -->
+  <div class="icons">
+    <fa-icon [icon]="faLinkedinIn"></fa-icon>
+    <fa-icon [icon]="faGithub"></fa-icon>
+    <fa-icon [icon]="faEnvelope"></fa-icon>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+ul {
+  display: flex;
+  color: white;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+ul li a {
+  padding: 0 7px;
+}
+
+ul li a:hover {
+  border-bottom: solid 2px white;
+}

@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  font-size: 14px;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.container div:first-child {
+  width: 100px;
+}
+
+.container div:first-child p {
+  background-color: #EE8A2F;
+  color: white;
+  margin: 5px 0;
+  padding: 4px;
+  display: inline-block;
+}
+
+.container div:last-child p {
+  color: black;
+  padding: 10px;
+  text-align: right;
+}
+
+button {
+  width: 300px;
+  height: 35px;
+  margin: 20px 0;
+  padding: 8px;
+  background-color: white;
+  border-radius: 0;
+  border: solid 1px #EE8A2F;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  position: relative;
+}
+
+button fa-icon {
+  position: absolute;
+  right: 15px
+}
+
+.icons fa-icon {
+  padding-right: 25px;
+  font-size: 20px;
+}

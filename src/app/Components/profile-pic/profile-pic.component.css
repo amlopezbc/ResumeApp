@@ -1,0 +1,19 @@
+article {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  gap: 20px;
+}
+
+p strong {
+  font-size: 25px;
+  font-weight: 400;
+  color: white;
+  text-transform: capitalize;
+}
+
+img {
+  width: 130px;
+  border-radius: 130px;
+  margin-bottom: -20px;
+}

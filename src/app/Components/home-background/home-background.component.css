@@ -1,0 +1,10 @@
+#parche {
+  display: none;
+}
+
+figure img {
+  height: 540px;
+  position: absolute;
+  right: 105px;
+  bottom: 31px;
+}
