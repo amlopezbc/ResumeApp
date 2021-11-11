@@ -54,18 +54,18 @@ section p {
 }
 
 .card {
-    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.2);
-    border-radius: 30px;
-    background-color: white;
-    padding: 25px;
-    padding-right: 50px;
-    flex: 1;
+  box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  background-color: white;
+  padding: 25px;
+  padding-right: 50px;
+  flex: 1;
 }
 
 .centered {
-    text-align: center;
-    width: 600px;
-    margin: auto;
+  text-align: center;
+  width: 600px;
+  margin: auto;
 }
 
 /*
@@ -92,318 +92,24 @@ section p {
 
 @media only screen and (max-width:1000px) {
 
-    * {
-        position: relative;
-    }
-
-    header {
-        background-color: #EE8A2F;
-        display: block;
-        padding: 15px;
-        justify-content: space-evenly;
-        height: 100px;
-    }
-
-    header img {
-        width: 60px;
-        position: relative;
-        margin: 0;
-    }
-
-    header article {
-        width: 100%;
-        align-items: center;
-    }
-
-    header p strong {
-        font-size: 25px;
-        width: 50px;
-    }
-
-    header nav ul {
-        justify-content: center;
-    }
-
-    section#home {
-        flex-direction: column;
-        background-image: none;
-        padding: 6%;
-        background-color: white;
-        height: auto;
-    }
-
-    section#home #homeTitle {
-        width: 100%;
-        text-align: center;
-    }
-
-    section#home #homeTitle h1 {
-        font-size: 35px;
-        line-height: 40px;
-        text-align: center;
-        padding: 0;
-    }
-
-    section#home #homeTitle p {
-        font-size: 13px;
-        line-height: 18px;
-        padding-bottom: 40px;
-    }
-
-    section#home #parche {
-        width: 80px;
-        height: 15px;
-        background-color: white;
-        margin: auto;
-        border-top: 2px solid grey;
-        position: relative;
-        z-index: 5;
-        margin-top: -1px;
-    }
-
-    section#home figure:first-of-type {
-        display: flex;
-        position: relative;
-        justify-content: center;
-        border-bottom: 2px solid grey;
-    }
-
-    section#home #parche,
-    section#home #logoBack {
-        display: block;
-
-    }
-
-    section#home figure:first-of-type img {
-
-        height: 300px;
-        position: relative;
-        margin: 0 auto;
-        padding: 0;
-        right: -3px;
-        bottom: -1px;
-        z-index: 3;
-    }
-
-    section#home #logoBack img {
-        height: 320px;
-        position: absolute;
-        margin: 0 auto;
-        padding: 0;
-        left: 0px;
-        bottom: -10px;
-        z-index: 1;
-    }
-
-    section#home .icons {
-
-        bottom: auto;
-    }
-
-    section#home #personalInfo {
-        width: auto;
-    }
-
-    section#home #personalInfo p {
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 16px;
-    }
-
-    section#home #personalInfo div:first-child {
-        width: 30%;
-    }
-
-    section#home #personalInfo div:first-child p {
-        padding: 5px;
-    }
-
-    section#home button {
-        width: 100%;
-    }
-
-    section#resume {
-        width: auto;
-        padding: 6%;
-        margin-bottom: 130px;
-    }
-
-    section#resume section {
-        flex-direction: column-reverse;
-    }
-
-    section p,
-    section h1,
-    section h2 {
-        text-align: center;
-        width: auto;
-    }
-
-    q {
-        padding: 0 !important;
-        bottom: auto;
-        width: 100%;
-        font-size: 2.5em;
-        line-height: 1.2em;
-        z-index: 99;
-    }
-
-    section#resume #quote {
-        margin-bottom: 130px;
-        width: 100%;
-    }
-
-    section#experience h1.resumeTitle {
-        font-size: 19px
-    }
-
-    section#resume h1 {
-        font-size: 40px;
-    }
-
-    section#resume q {
-        width: 100%;
-        bottom: auto;
-        font-size: 1.7em;
-        top: 11vh;
-    }
-
-    section#resume #quoteLogo {
-        position: absolute;
-        width: 120px;
-        right: 0;
-        top: 0;
-    }
-
-    .card {
-        padding: 25px;
-        justify-content: flex-end;
-        width: auto !important;
-    }
-
-    #aboutMe.card {
-        margin-top: 50px;
-    }
-
-    section#resume .card h1 {
-        font-size: 18px;
-    }
-
-    section#resume .card h2 {
-        padding: 15px 0;
-        font-size: 18px;
-
-    }
-
-    #languagesHobbies {
-        flex-direction: column;
-    }
-
-    #languagesHobbies div:first-of-type div {
-        width: 100%;
-    }
-
-    #learnMore {
-        position: relative;
-        bottom: unset;
-        justify-content: center;
-        margin-top: 20px;
-    }
-
-    .centered {
-        width: auto;
-    }
-
-
-
-    section#experience div {
-        display: block;
-        width: auto;
-    }
-
-    section#academic div div div {
-        display: flex;
-        padding-bottom: 30px;
-    }
-
-    section#academic div div h1,
-    section#academic div div p {
-        text-align: left;
-    }
-
-    #techStack .flex {
-        justify-content: center;
-        overflow: scroll;
-    }
-
-    #techStack div div img {
-        padding: 0 20px;
-    }
-
-
-
-    section#references {
-        width: auto;
-    }
-
-    section#references .grid {
-        grid-template-columns: 1fr;
-
-    }
-
-    section#references article {
-        width: 100%;
-    }
-
-    section#references article h1,
-    section#references article p {
-        text-align: left;
-    }
-
-    section#contact {
-        flex-direction: column;
-
-        padding: 0;
-        align-items: center;
-        height: 40vh;
-        margin-bottom: 90vh;
-    }
-
-    section#contact q {
-        font-size: 27px;
-        line-height: unset;
-        position: absolute;
-        bottom: 300px;
-    }
-
-    section#contact .card {
-        padding: 20px;
-        margin: 0;
-        position: absolute !important;
-        top: 220px;
-        width: 75% !important;
-    }
-
-    section#contact #sendMessage {
-        text-align: center;
-    }
-
-    section#contact div:first-of-type {
-        width: 80%;
-    }
-
-    section#contact div:last-of-type {
-        position: relative;
-    }
-
-    footer.flex {
-        padding-left: 5px;
-        justify-content: flex-start;
-    }
-
-    footer.flex p:first-child::after,
-    footer.flex p:nth-child(2)::after {
-        padding-left: 5px;
-        content: "  |";
-    }
+  * {
+    position: relative;
+  }
+
+  section p,
+  section h1,
+  section h2 {
+    text-align: center;
+    width: auto;
+  }
+
+  .card {
+    padding: 25px;
+    justify-content: flex-end;
+    width: auto !important;
+  }
+
+  .centered {
+    width: auto;
+  }
 }

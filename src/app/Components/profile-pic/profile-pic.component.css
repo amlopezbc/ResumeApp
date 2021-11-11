@@ -17,3 +17,22 @@ img {
   border-radius: 130px;
   margin-bottom: -20px;
 }
+
+@media only screen and (max-width:1000px) {
+
+  img {
+    width: 60px;
+    position: relative;
+    margin: 0;
+  }
+
+  article {
+    width: 100%;
+    align-items: center;
+  }
+
+  p strong {
+    font-size: 25px;
+    width: 50px;
+  }
+}

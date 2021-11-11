@@ -1,10 +1,25 @@
 footer.flex {
-    background-color: black;
-    color: white;
-    height: 50px;
-    font-size: 12px;
-    font-weight: 300;
-    padding: 0 50px;
+  background-color: black;
+  color: white;
+  height: 50px;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 0 50px;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+
+@media only screen and (max-width:1000px) {
+
+  footer.flex {
+    padding-left: 5px;
     justify-content: flex-start;
-    gap: 15px;
+  }
+
+  footer.flex p:first-child::after,
+  footer.flex p:nth-child(2)::after {
+    padding-left: 5px;
+    content: "  |";
+  }
 }

@@ -1,8 +1,19 @@
 header {
+  background-color: #EE8A2F;
+  padding: 0 30px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 130px;
+}
+
+@media only screen and (max-width:1000px) {
+
+  header {
     background-color: #EE8A2F;
-    padding: 0 30px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    height: 130px;
+    display: block;
+    padding: 15px;
+    justify-content: space-evenly;
+    height: 100px;
   }
+}

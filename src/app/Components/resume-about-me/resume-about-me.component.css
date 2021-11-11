@@ -18,5 +18,30 @@
 
 app-resume-card {
   flex: 1;
-  padding:0;
+  padding: 0;
+}
+
+
+@media only screen and (max-width:1000px) {
+
+  #quote {
+    margin-bottom: 130px;
+    width: 100%;
+  }
+
+  section {
+    flex-direction: column-reverse;
+  }
+
+  app-quote {
+    display: block;
+    width: 100%;
+  }
+
+  #logoBack img {
+    position: absolute;
+    width: 120px;
+    right: 0;
+    top: 0;
+  }
 }

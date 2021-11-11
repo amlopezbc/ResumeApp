@@ -26,3 +26,28 @@
   padding-bottom: 25px;
   border-bottom: 1px solid rgb(182, 181, 181);
 }
+
+
+@media only screen and (max-width:1000px) {
+
+  .card {
+    margin-top: 50px;
+  }
+
+  .card h1 {
+    font-size: 18px;
+  }
+
+  .card h2 {
+    padding: 15px 0;
+    font-size: 18px;
+  }
+
+  #languagesHobbies {
+    flex-direction: column;
+  }
+
+  #languagesHobbies div:first-of-type div {
+    width: 100%;
+  }
+}

@@ -43,3 +43,32 @@ div div div div {
 .degree {
   width: 450px;
 }
+
+li {
+  font-size: 14px;
+  color: rgb(87, 86, 86);
+  list-style-type: circle;
+  margin-left: 15px;
+}
+
+@media only screen and (max-width:1000px) {
+
+  div div div div {
+    display: flex;
+    /* padding-bottom: 30px; */
+  }
+
+  div div div h1,
+  div div div p {
+    text-align: left;
+  }
+
+  .flex {
+    display: block;
+    width: auto;
+  }
+
+  .degree{
+    width: 100%;
+  }
+}

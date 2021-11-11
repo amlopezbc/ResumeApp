@@ -1,10 +1,58 @@
-#parche {
+#parche,
+#logoBack {
   display: none;
 }
 
-figure img {
+#fullPic img {
   height: 540px;
   position: absolute;
   right: 105px;
   bottom: 31px;
+}
+
+@media only screen and (max-width:1000px) {
+
+  #parche {
+    display: block;
+    width: 80px;
+    height: 15px;
+    background-color: white;
+    margin: auto;
+    border-top: 2px solid grey;
+    position: relative;
+    z-index: 5;
+    margin-top: -1px;
+  }
+
+  #logoBack {
+    display: block;
+  }
+
+  #fullPic {
+    border-bottom: 2px solid grey;
+  }
+
+  #fullPic img {
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    right: -3px;
+    bottom: -1px;
+    z-index: 3;
+    display: flex;
+    position: relative;
+    justify-content: center;
+
+  }
+
+  #logoBack img {
+    height: 320px;
+    padding: 0;
+    position: absolute;
+    margin: 0 auto;
+    left: 138px;
+    bottom: -15px;
+    z-index: 1;
+  }
 }

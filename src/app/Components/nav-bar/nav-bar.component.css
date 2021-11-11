@@ -12,3 +12,10 @@ ul li a {
 ul li a:hover {
   border-bottom: solid 2px white;
 }
+
+@media only screen and (max-width:1000px) {
+
+  nav ul {
+    justify-content: center;
+  }
+}
