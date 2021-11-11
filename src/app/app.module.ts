@@ -18,6 +18,15 @@ import { ResumeCardComponent } from './components/resume-card/resume-card.compon
 import { ExperienceCardComponent } from './components/experience-card/experience-card.component';
 import { TechStackCardComponent } from './components/tech-stack-card/tech-stack-card.component';
 import { ReferenceCardComponent } from './components/reference-card/reference-card.component';
+import { ProgressBarComponent } from './components/progress-bar/progress-bar.component';
+import { HobbiesComponent } from './components/hobbies/hobbies.component';
+import { LearnMoreComponent } from './components/learn-more/learn-more.component';
+import { QuoteComponent } from './components/quote/quote.component';
+import { DegreeCategoryComponent } from './components/degree-category/degree-category.component';
+import { NavCirclesComponent } from './components/nav-circles/nav-circles.component';
+import { ResumeAboutMeComponent } from './components/resume-about-me/resume-about-me.component';
+import { ResumeExperienceComponent } from './components/resume-experience/resume-experience.component';
+import { ResumeReferencesComponent } from './components/resume-references/resume-references.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -42,6 +51,15 @@ const appRoutes: Routes = [
     ExperienceCardComponent,
     TechStackCardComponent,
     ReferenceCardComponent,
+    ProgressBarComponent,
+    HobbiesComponent,
+    LearnMoreComponent,
+    QuoteComponent,
+    DegreeCategoryComponent,
+    NavCirclesComponent,
+    ResumeAboutMeComponent,
+    ResumeExperienceComponent,
+    ResumeReferencesComponent,
 
   ],
   imports: [

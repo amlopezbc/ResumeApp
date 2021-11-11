@@ -1,0 +1,10 @@
+h1 {
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: capitalize;
+  padding-bottom: 30px;
+}
+
+#resume {
+  padding-top: 50px;
+}

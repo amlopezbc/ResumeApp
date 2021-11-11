@@ -1,0 +1,22 @@
+#aboutLanguages {
+  display: flex;
+  padding: 0 0 40px 0;
+  justify-content: space-between;
+
+}
+
+#quote {
+  width: 50%;
+  position: relative;
+}
+
+#quote img {
+  width: 300px;
+  position: absolute;
+  right: 0;
+}
+
+app-resume-card {
+  flex: 1;
+  padding:0;
+}

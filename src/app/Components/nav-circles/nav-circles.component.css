@@ -1,0 +1,24 @@
+#buttons div {
+  justify-content: center;
+  gap: 15px !important;
+  margin-bottom: 15px;
+}
+
+#buttons .circleOut {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: rgb(231, 231, 231);
+  padding: 3px;
+  position: relative;
+}
+
+#buttons .circleIn {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  border-radius: 100%;
+  background-color: orange;
+}

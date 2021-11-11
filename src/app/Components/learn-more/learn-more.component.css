@@ -1,0 +1,19 @@
+#learnMore {
+    display: flex;
+    height: 10px;
+    position: absolute;
+    bottom: 3px;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 15px;
+    padding-top: 25px;
+    border-top: 1px solid rgb(182, 181, 181);
+}
+
+#learnMore p {
+    font-size: 9px;
+    text-transform: capitalize;
+    color: rgb(138, 138, 138);
+    padding: 0;
+    line-height: 15px;
+}

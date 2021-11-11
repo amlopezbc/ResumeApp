@@ -1,0 +1,28 @@
+#aboutMe h1 {
+  font-size: 22px;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+
+#aboutMe h2 {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 25px 0;
+}
+
+#languagesHobbies {
+  display: flex;
+}
+
+#languagesHobbies div {
+  flex: 1;
+}
+
+#hobbies {
+  position: relative;
+}
+
+#hobbies div:first-of-type {
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgb(182, 181, 181);
+}

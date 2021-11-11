@@ -1,0 +1,20 @@
+h1 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+img {
+    width: 80px;
+}
+
+#techStack {
+    padding-bottom: 30px;
+}
+
+.card {
+    padding: 30px;
+    width: 800px;
+    margin: 20px auto;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
