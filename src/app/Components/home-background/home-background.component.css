@@ -3,7 +3,7 @@
   display: none;
 }
 
-#fullPic img {
+figure img {
   height: 540px;
   position: absolute;
   right: 105px;
@@ -11,6 +11,23 @@
 }
 
 @media only screen and (max-width:1000px) {
+
+
+  figure {
+    border-bottom: 2px solid grey;
+    margin-bottom: 15px;
+  }
+
+  figure img {
+    height: 300px;
+    margin: 0 auto;
+    padding: 0;
+    right: -3px;
+    bottom: -16px;
+    z-index: 3;
+    display: flex;
+    position: relative;
+  }
 
   #parche {
     display: block;
@@ -21,38 +38,19 @@
     border-top: 2px solid grey;
     position: relative;
     z-index: 5;
-    margin-top: -1px;
+    margin-top: -17px;
   }
 
   #logoBack {
     display: block;
+    height: 320px;
+    position: absolute;
+    left: -108px;
+    bottom: -15px;
+    z-index: 1;
   }
 
   #fullPic {
-    border-bottom: 2px solid grey;
-  }
-
-  #fullPic img {
-    height: 300px;
-    position: relative;
-    margin: 0 auto;
-    padding: 0;
-    right: -3px;
-    bottom: -1px;
-    z-index: 3;
-    display: flex;
-    position: relative;
-    justify-content: center;
-
-  }
-
-  #logoBack img {
-    height: 320px;
-    padding: 0;
-    position: absolute;
-    margin: 0 auto;
-    left: 138px;
-    bottom: -15px;
-    z-index: 1;
+    bottom: 0px;
   }
 }

@@ -1,0 +1,17 @@
+#app {
+    width: auto;
+    border-collapse: collapse;
+    margin: 20px 0 0 0;
+}
+
+#app td,
+#app th {
+    padding: 5px 10px;
+    border-right: 10px solid rgb(243, 243, 243);
+}
+
+#app th {
+    /* background-color: #ffb400; */
+    background-color: #EE8A2F;
+    color:white;
+}

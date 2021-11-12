@@ -96,7 +96,7 @@ section#contact #sendMessage {
     font-size: 27px !important;
     line-height: unset !important;
     position: absolute;
-    bottom: 200px;
+    bottom: 50%;
   }
 
   .card {
@@ -117,5 +117,9 @@ section#contact #sendMessage {
 
   div:last-of-type {
     position: relative;
+  }
+
+  .card img {
+    display: none;
   }
 }

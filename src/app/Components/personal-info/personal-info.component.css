@@ -50,11 +50,6 @@ button fa-icon {
 
 @media only screen and (max-width:1000px) {
 
-  .icons {
-    bottom: auto;
-  }
-
-
   div {
     width: auto;
   }
@@ -65,6 +60,14 @@ button fa-icon {
     line-height: 16px;
   }
 
+  button {
+    width: 100%;
+  }
+
+  .icons {
+    bottom: auto;
+  }
+
   .container {
     width: auto;
   }
@@ -73,7 +76,8 @@ button fa-icon {
     padding: 5px;
   }
 
-  button {
-    width: 100%;
+  #personalInfoLabel {
+    width: 90px;
   }
+
 }

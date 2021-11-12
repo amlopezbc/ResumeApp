@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { RouterModule, Routes } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './Components/header/header.component';
@@ -27,6 +28,7 @@ import { NavCirclesComponent } from './components/nav-circles/nav-circles.compon
 import { ResumeAboutMeComponent } from './components/resume-about-me/resume-about-me.component';
 import { ResumeExperienceComponent } from './components/resume-experience/resume-experience.component';
 import { ResumeReferencesComponent } from './components/resume-references/resume-references.component';
+import { WeatherComponent } from './components/weather/weather.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -60,11 +62,13 @@ const appRoutes: Routes = [
     ResumeAboutMeComponent,
     ResumeExperienceComponent,
     ResumeReferencesComponent,
+    WeatherComponent,
 
   ],
   imports: [
     BrowserModule,
     FontAwesomeModule,
+    HttpClientModule,
     RouterModule.forRoot(appRoutes, { enableTracing: true })
   ],
   providers: [],
