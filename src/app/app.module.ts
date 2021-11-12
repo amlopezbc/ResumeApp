@@ -67,8 +67,8 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
-    FontAwesomeModule,
     HttpClientModule,
+    FontAwesomeModule,
     RouterModule.forRoot(appRoutes, { enableTracing: true })
   ],
   providers: [],

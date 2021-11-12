@@ -1,17 +1,30 @@
 #app {
-    width: auto;
-    border-collapse: collapse;
-    margin: 20px 0 0 0;
+  width: auto;
+  border-collapse: separate;
+  margin: 0;
+  padding: 0;
 }
 
 #app td,
 #app th {
-    padding: 5px 10px;
-    border-right: 10px solid rgb(243, 243, 243);
+  padding: 5px 10px 5px 5px;
+  color: white;
 }
 
 #app th {
-    /* background-color: #ffb400; */
-    background-color: #EE8A2F;
-    color:white;
+  text-align: left;
+  color: white;
+}
+
+
+@media only screen and (max-width:1000px) {
+
+  #app td,
+  #app th {
+    font-size: 12px;
+    line-height: 12px;
+    padding:2px 5px;
+    text-align: right;
+  }
+
 }

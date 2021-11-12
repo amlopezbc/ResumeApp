@@ -11,9 +11,13 @@ header {
 
   header {
     background-color: #EE8A2F;
-    display: block;
+    /* display: block; */
     padding: 15px;
     justify-content: space-evenly;
     height: 100px;
+  }
+
+  app-profile-pic {
+    flex: 1;
   }
 }

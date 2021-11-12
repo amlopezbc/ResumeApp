@@ -16,6 +16,6 @@ ul li a:hover {
 @media only screen and (max-width:1000px) {
 
   nav ul {
-    justify-content: center;
+    justify-content: flex-end;
   }
 }
