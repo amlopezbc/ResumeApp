@@ -1,0 +1,28 @@
+<form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+
+  <label for="fullName">First Name: </label>
+  <input id="fullName" type="text" formControlName="fullName">
+
+  <label for="eMail">Your email</label>
+  <input id="eMail" type="email" formControlName="eMail">
+
+  <label for="subject">Subject</label>
+  <input id="text" type="subject" formControlName="subject">
+
+  <label for="message">Your message</label>
+  <textarea name="message" id="message" cols="30" rows="10" formControlName="message"></textarea>
+
+  <p id="pMessage" *ngIf="!isFormValid">Please fill in all the required fields.</p>
+
+  <div id="buttonSend">
+    <button type="submit" [disabled]="!profileForm.valid">Send message</button>
+    <fa-icon [icon]="faUpload"></fa-icon>
+  </div>
+
+</form>
+
+<!-- <li *ngFor="let item of myList">
+    <div [ngClass]="{'bordered': item.messageText == item.messageText, 'greyedOut': item.messageText !== item.messageText }">
+      {{item.messageText}}
+    </div>
+</li>  -->

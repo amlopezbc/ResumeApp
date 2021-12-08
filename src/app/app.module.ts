@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { RouterModule, Routes } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './Components/header/header.component';
@@ -29,6 +30,7 @@ import { ResumeAboutMeComponent } from './components/resume-about-me/resume-abou
 import { ResumeExperienceComponent } from './components/resume-experience/resume-experience.component';
 import { ResumeReferencesComponent } from './components/resume-references/resume-references.component';
 import { WeatherComponent } from './components/weather/weather.component';
+import { ContactProfileEditorComponent } from './components/contact-profile-editor/contact-profile-editor.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -63,13 +65,14 @@ const appRoutes: Routes = [
     ResumeExperienceComponent,
     ResumeReferencesComponent,
     WeatherComponent,
-
+    ContactProfileEditorComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     FontAwesomeModule,
-    RouterModule.forRoot(appRoutes, { enableTracing: true })
+    RouterModule.forRoot(appRoutes, { enableTracing: true }),
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
